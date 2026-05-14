@@ -1,16 +1,47 @@
-# test_two
+# Expense Management Application
 
-A new Flutter project.
+A Flutter application to manage daily expenses.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add new expense
+- Edit expense
+- Delete expense
+- Category-wise filtering
+- Category-wise analytics
+- Local storage using Hive
+- Form validation
+- State management using Riverpod
+- Dark mode support
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Riverpod
+- Hive
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Steps
+
+1. Clone the repository:
+git clone https://github.com/TusharDashore/expence_management_app.git
+
+2. Go to project folder:
+cd expence_management_app
+
+3. Install dependencies:
+flutter pub get
+
+4. Generate Hive adapter:
+dart run build_runner build --delete-conflicting-outputs
+
+5. Run the app:
+flutter run
+
+## Screenshots
+
+Screenshots are available in the screenshots folder.
+
+## Screen Recording
+
+Screen recording is shared separately through [https://drive.google.com/file/d/1-ZUBqJTCjFYAeGZiJOuJhHbUdDR40kmE/view?usp=sharing].
